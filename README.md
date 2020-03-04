@@ -1,6 +1,13 @@
 # Deploying-with-Git-Heruka
 Luego de estar en la carpeta SRC del proyecto
 en consola CMD
+- Archivos necesarios
+# requirements.txt /pip freeze > ../../src/requirements
+# runtime.txt / python-3.7.6
+# Procfile / web gunicorn index:app
+Instalar gunicorn en el entorno virtual
+# pip install gunicorn
+------------------------------------------
 # git init // inicia git en nuestro proyecto
 # git status // estado de los files
 # git add . // para agregar todos los files
